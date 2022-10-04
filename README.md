@@ -1,9 +1,9 @@
 # AWS Network Firewall Module
-This module for creating AWS Network Firewall by Terraform
-Source: https://github.com/mattyait/terraform-aws-network-firewall
+- This module for creating AWS Network Firewall by Terraform
+- Source: https://github.com/mattyait/terraform-aws-network-firewall
 
 ## Usage Sample:
-- Details sample [link](./e2e/main.tf) 
+- Configuration [link](./e2e/main.tf) 
 ```hcl
 module "nfw" {
   source = "../"
