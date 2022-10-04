@@ -1,0 +1,19 @@
+name: Render Terraform Docs
+on: 
+  push:
+    paths:
+      - '**.tf'
+jobs:
+  render-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@master
+        
+      - name: Render terraform docs
+        uses: terraform-docs/gh-actions@main
+        with:
+          working-dir: ./
+          output-file: README.md
+          output-method: inject
+          git-push: "true"
