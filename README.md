@@ -103,3 +103,8 @@ No modules.
 | <a name="output_endpoint_id"></a> [endpoint\_id](#output\_endpoint\_id) | Created Network Firewall endpoint id |
 | <a name="output_id"></a> [id](#output\_id) | Created Network Firewall ID from network\_firewall module |
 <!-- END_TF_DOCS -->
+
+## Contributors
+<a href="https://github.com/tnx-journey-to-cloud/terraform-aws-networkfirewall/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tnx-journey-to-cloud/terraform-aws-networkfirewall" />
+</a>
